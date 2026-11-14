@@ -53,13 +53,13 @@ Individual Coursework
 ## Screenshots
 
 ### Main Dashboard
-![Main Dashboard](./Screenshots/Main page.png)
+![Main Dashboard](./Screenshots/Main%20page.png)
 
 ### Stock Information
-![Stock Information](./Screenshots/Stock Info page.png)
+![Stock Information](./Screenshots/Stock%20Info%20page.png)
 
 ### About Page
-![About Page](./Screenshots/About page.png)
+![About Page](./Screenshots/About%20page.png)
 
 ## Author
 
