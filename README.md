@@ -50,6 +50,17 @@ The application allows users to calculate stock trading costs and profits or los
 
 Individual Coursework
 
+## Screenshots
+
+### Main Dashboard
+![Main Dashboard](screenshots/Main page.png)
+
+### Stock Information
+![Stock Information](screenshots/Stock Info.png)
+
+### About Page
+![About Page](screenshots/About.png)
+
 ## Author
 
 Yunlong Wang
