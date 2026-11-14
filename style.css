@@ -1,0 +1,529 @@
+
+QDialog {
+    background-image: url("Assets/main_background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+QLabel#titleLabel1 {
+    font-family: "Caveat";
+    color:black;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+QLabel#titleLabel2 {
+    font-family: "Caveat";
+    color:black;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+QLabel#titleLabel3 {
+    font-family: "Caveat";
+    color:black;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+QFrame#borderLine1 {
+    background-color:dimgray;
+    border: none;
+    max-height: 8px;
+    min-height: 8px;
+}
+
+QFrame#borderLine2 {
+    background-color:dimgray;
+    border: none;
+    max-height: 8px;
+    min-height: 8px;
+}
+
+QFrame#borderLine3 {
+    background-color:dimgray;
+    border: none;
+    max-width: 8px;
+    min-width: 8px;
+}
+
+QFrame#borderLine4 {
+    background-color:dimgray;
+    border: none;
+    max-width: 8px;
+    min-width: 8px;
+}
+
+QFrame#horizontalLine {
+    background-color:dimgray;
+    border: none;
+    max-height: 3px;
+    min-height: 3px;
+}
+
+QFrame#horizontalLine2 {
+    background-color:midnightblue;
+    border: none;
+    max-height: 2px;
+    min-height: 2px;
+}
+
+QFrame#horizontalLine3 {
+    background-color:midnightblue;
+    border: none;
+    max-height: 2px;
+    min-height: 2px;
+}
+
+QFrame#horizontalLine4 {
+    background-color:midnightblue;
+    border: none;
+    max-height: 2px;
+    min-height: 2px;
+}
+
+QFrame#verticalLine {
+    background-color:dimgray;
+    border: none;
+    max-width: 3px;
+    min-width: 3px;
+}
+
+QFrame#calculatorFrame1 {
+    border: none;
+    border-radius:10px;
+    border:1px;
+
+    background-image: url("Assets/background_color_of_Stock_Info_button.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+QFrame#calculatorFrame2 {
+    border: none;
+    border-radius:10px;
+
+    background-image: url("Assets/background_color_of_About_button.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+QLabel#TC_Content1 {
+    font-family: "Caveat";
+    color:black;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+QLabel#TC_Content2 {
+    font-family: "Caveat";
+    color:black;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+QLabel#TC_Content3 {
+    font-family: "Caveat";
+    color:black;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+QLabel#TC_Content4 {
+    font-family: "Caveat";
+    color:black;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+QLabel#instruction1 {
+    font-family: "Caveat";
+    color:black;
+    font-size: 20px;
+    font-weight: bold;
+}
+QLabel#instruction2 {
+    font-family: "Caveat";
+    color:black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+QLabel#instruction3 {
+    font-family: "Caveat";
+    color:black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+QLabel#instruction4 {
+    font-family: "Caveat";
+    color:black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+QLabel#instruction5 {
+    font-family: "Caveat";
+    color:black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+QLabel#instruction6 {
+    font-family: "Caveat";
+    color:black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+QLabel#instruction7 {
+    font-family: "Caveat";
+    color:black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+QLabel#instruction8 {
+    font-family: "Caveat";
+    color:black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+QLabel#display1 {
+    font-family: "Caveat";
+    color:black;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+QLabel#display2 {
+    font-family: "Caveat";
+    color:black;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+QLabel#display3 {
+    font-family: "Caveat";
+    color:black;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+QLabel#about {
+    font-family: "Caveat";
+    color:black;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+QLabel#stockinfo {
+    font-family: "Caveat";
+    color:black;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+QComboBox {
+    font-family: "Caveat";
+    background-color: white;
+    border: 2px solid #8FA8C8;
+    padding: 5px 10px;
+    font-size: 20px;
+    color: black;
+}
+
+QComboBox QAbstractItemView {
+    font-family: "Caveat";
+    background-color: white;
+    color: black;
+    selection-background-color: #8FA8C8;
+    selection-color: white;
+}
+
+QLineEdit {
+    font-family: "Caveat";
+    background-color: white;
+    padding: 5px 10px;
+    font-size: 14px;
+    color: black;
+}
+
+QDateEdit {
+    font-family: "Caveat";
+    background-color: white;
+    color: #26364A;
+    border: 2px solid #8FA8C8;
+    padding: 5px 10px;
+    font-size: 20px;
+}
+
+QDateEdit:hover {
+    border: 2px solid #355C7D;
+}
+
+QDateEdit:focus {
+    border: 2px solid #355C7D;
+}
+
+QDateEdit::drop-down {
+    font-family: "Caveat";
+    background-color: #DCEAF7;
+    border: none;
+    border-bottom-right-radius: 10px;
+    width: 32px;
+}
+
+QDateEdit::down-arrow {
+    width: 0px;
+    height: 0px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 6px solid #355C7D;
+    subcontrol-position: center;
+}
+
+QDateEdit::drop-down:hover {
+    background-color: #8FA8C8;
+}
+
+QDateEdit::drop-down:hover {
+    background-color: #8FA8C8;
+}
+
+QCalendarWidget QWidget#qt_calendar_navigationbar {
+    background-color: #355C7D;
+}
+
+QCalendarWidget QToolButton {
+    font-family: "Caveat";
+    background-color: #355C7D;
+    color: white;
+    border: none;
+    padding: 5px;
+    font-size: 14px;
+}
+
+QCalendarWidget QToolButton:hover {
+    background-color: #527FA5;
+}
+
+QCalendarWidget QSpinBox {
+    font-family: "Caveat";
+    background-color: white;
+    color: #26364A;
+    border: 1px solid #8FA8C8;
+    padding: 3px;
+    selection-background-color: #8FA8C8;
+    selection-color: white;
+}
+
+/* Year up and down buttons */
+QCalendarWidget QSpinBox::up-button,
+QCalendarWidget QSpinBox::down-button {
+    font-family: "Caveat";
+    background-color: #DCEAF7;
+    border: none;
+    width: 18px;
+}
+
+QCalendarWidget QSpinBox::up-button:hover,
+QCalendarWidget QSpinBox::down-button:hover {
+    font-family: "Caveat";
+    background-color: #8FA8C8;
+}
+
+QPushButton#aboutButton {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-family: "Caveat";
+    font-size: 16px;
+    font-weight: bold;
+}
+
+QPushButton#aboutButton:hover {
+    background-color: #527FA5;
+    color: white;
+}
+
+QPushButton#stockInfoButton {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-family: "Caveat";
+    font-size: 16px;
+    font-weight: bold;
+}
+
+QPushButton#stockInfoButton:hover {
+    background-color: #527FA5;
+    color: white;
+}
+
+
+QLabel#aboutTitle1 {
+    font-family: "Caveat";
+    color:black;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+QLabel#aboutTitle2 {
+    color: midnightblue;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+QTextEdit#aboutText {
+    background-color: white;
+    color: black;
+    border: 1px solid #8FA8C8;
+    border-radius: 8px;
+    padding: 12px;
+    font-family: "Caveat";
+    font-size: 20px;
+}
+
+
+
+
+
+
+QLabel#stockInfoTitle1 {
+    font-family: "Caveat";
+    color:black;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+QLabel#stockInfoTitle2 {
+    font-family: "Caveat";
+    color:black;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+QLabel#stockInfoTitle3 {
+    font-family: "Caveat";
+    color:black;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+QLabel#stockInfoTitle4 {
+    font-family: "Caveat";
+    color:black;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+QLabel#stockInfoTitle5 {
+    font-family: "Caveat";
+    color:black;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+QLabel#stockInfoChart {
+    font-family: "Caveat";
+    color:black;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+QLabel#stockInfoTitle7 {
+    font-family: "Caveat";
+    color:black;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+QLabel#stockInfoTitle8 {
+    font-family: "Caveat";
+    color:black;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+QLabel#stockInfoTitle9 {
+    font-family: "Caveat";
+    color:black;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+QLabel#stockInfoTitle10 {
+    font-family: "Caveat";
+    color:black;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+QLabel#purchaseTotalValue {
+    font-family: "Caveat";
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+QLabel#sellTotalValue {
+    font-family: "Caveat";
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+QLabel#profitLossValue {
+    font-family: "Caveat";
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+QLabel#lowestPriceValue {
+    font-family: "Caveat";
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+QLabel#highestPriceValue {
+    font-family: "Caveat";
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+QLabel#latestPriceValue {
+    font-family: "Caveat";
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+QLabel#averagePriceValue {
+    font-family: "Caveat";
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+QLabel#totalRecordsValue {
+    font-family: "Caveat";
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+QLabel#dateRangeValue {
+    font-family: "Caveat";
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
